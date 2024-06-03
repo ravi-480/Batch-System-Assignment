@@ -1,0 +1,97 @@
+.nav {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 1.25rem; /* Corresponds to text-xl */
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /* Navbar.css */
+.nav-link {
+    text-decoration: none;
+    position: relative;
+    line-height: 26px;
+    text-transform: capitalize;
+    display: inline-block;
+    z-index: 8;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover{
+    font-size: 1.45rem;
+    transition: all 0.3s;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.571);
+  }
+
+  .nav-link-home {
+    font-weight: bold;
+    color: tomato;
+    min-width: 60px;
+  }
+  
+  .nav-link-about {
+    flex: 1;
+    font-weight: 500;
+    color: inherit;
+    min-width: 89px;
+    white-space: nowrap;
+  }
+  
+  .nav-link-pricing {
+    font-weight: 500;
+    color: inherit;
+    min-width: 68px;
+  }
+  
+  .nav-link-features {
+    flex: 1;
+    font-weight: 500;
+    color: inherit;
+  }
+  .button {
+    cursor: pointer;
+    border: none;
+    padding: 16px 46px;
+    background-color: black;
+    width: 180px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    z-index: 8;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: darkslategray;
+  }
+.btn-link {
+    text-decoration: none;
+    flex: 1;
+    position: relative;
+    font-size: 1.125rem; /* text-lg */
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Clash Display', sans-serif;
+    color: white;
+    text-align: left;
+    z-index: 1;
+  }
+header .btn:hover {
+    background-color: darkslategray;
+  }
+  @media (max-width: 750px) {
+    .nav {
+      display: none; /* Corresponds to mq750:hidden */
+    }
+  }

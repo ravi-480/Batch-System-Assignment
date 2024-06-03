@@ -1,0 +1,22 @@
+/* ScrollAnimation.css */
+.scroll-animation {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.scroll-animation-left {
+  transform: translateX(-100px);
+}
+
+.scroll-animation-top {
+  transform: translateY(-100px);
+}
+
+.scroll-animation.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scroll-animation-top.animate {
+  transform: translateY(0);
+}

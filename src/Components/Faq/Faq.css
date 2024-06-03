@@ -1,0 +1,156 @@
+.faq-container {
+    width: 100%;
+    max-width: 1090px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .faq-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .faq-title {
+    letter-spacing: 0.16em;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .faq-main-title {
+    font-size: 29px;
+    line-height: 48px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+  }
+  
+  .faq-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .faq-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 348px;
+  }
+  
+  .faq-card {
+    padding: 31px 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .tomato-bg {
+    background-color: tomato;
+    color: white;
+  }
+  
+  .white-bg {
+    background-color: white;
+    color: black;
+  }
+  
+  .gray-text {
+    color: gray;
+  }
+  
+  .faq-card-title {
+    font-size: inherit;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .faq-card-text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0;
+  }
+  
+  .cta-container {
+    width: 100%;
+    max-width: 1090px;
+    display: flex;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+    color: white;
+  }
+  
+  .cta-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 156px 77px 232px;
+  }
+  
+  .cta-title {
+    font-size: 29px;
+    line-height: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .cta-text {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 16px;
+  }
+  
+  .cta-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    color: black;
+    padding: 14px 22px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-text {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .button-icon {
+    width: 25.8px;
+    height: 32px;
+  }
+  
+  .cta-images {
+    position: relative;
+    flex: 1;
+  }
+  
+  .cta-background {
+    position: absolute;
+    bottom: -403.5px;
+    left: -175px;
+  }
+  
+  .cta-phone {
+    position: absolute;
+    top: -248px;
+    right: -175px;
+  }
+  
+  .footer-icons-child7 {
+    position: absolute;
+    bottom: 102.1px;
+    left: 412px;
+  }
+  

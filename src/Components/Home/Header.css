@@ -1,0 +1,140 @@
+/* Header.css */
+.header {
+    width: 638px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+    font-size: 106.4px;
+  }
+  
+  .header-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-bottom: 449px;
+    box-sizing: border-box;
+    gap: 24px;
+    max-width: 100%;
+    font-size: 1rem; /* equivalent to text-lg */
+  }
+  
+  .header-title {
+    margin: 0;
+    width: 618px;
+    position: relative;
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 8;
+  }
+  
+  .header-description {
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: medium;
+    color: gray;
+    z-index: 8;
+  }
+  
+  .header-buttons {
+    width: 374px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  
+  .header-button {
+    cursor: pointer;
+    border: none;
+    padding: 16px 23px;
+    background-color: black;
+    width: 180px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 8px;
+    z-index: 8;
+  }
+  
+  .header-button-text {
+    flex: 1;
+    position: relative;
+    font-size: 1rem; /* equivalent to text-lg */
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: medium;
+    font-family: 'Clash Display', sans-serif;
+    color: white;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .header-button:hover{
+    background-color: darkslategray;
+    transition: all 0.2s;
+  }
+  .header-watch {
+    width: 111px;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+  
+  .header-watch-text {
+    width: 100%;
+    position: relative;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: medium;
+    z-index: 8;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 450px) {
+    .header-title {
+      font-size: 19rem; /* equivalent to text-19xl */
+      line-height: 38px;
+    }
+  
+    .header-buttons {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .header-content {
+      padding-bottom: 292px;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .header-title {
+      font-size: 51px;
+      line-height: 51px;
+    }
+  }
+  
+  
